@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C383997724ACB41700D83DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383997624ACB41700D83DF0 /* AppDelegate.swift */; };
+		C383997C24ACB41700D83DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C383997A24ACB41700D83DF0 /* Main.storyboard */; };
+		C383997F24ACB41700D83DF0 /* Polyglot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C383997D24ACB41700D83DF0 /* Polyglot.xcdatamodeld */; };
+		C383998124ACB41A00D83DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C383998024ACB41A00D83DF0 /* Assets.xcassets */; };
+		C383998424ACB41A00D83DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C383998224ACB41A00D83DF0 /* LaunchScreen.storyboard */; };
+		C383998C24ACE0CD00D83DF0 /* HomeScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383998B24ACE0CD00D83DF0 /* HomeScreenTableViewController.swift */; };
+		C383999524ACE3F000D83DF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C383999424ACE3F000D83DF0 /* CoreData.framework */; };
+		C383999724ACEDA000D83DF0 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383999624ACEDA000D83DF0 /* CoreDataHelper.swift */; };
+		C383999924AD108200D83DF0 /* NewWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383999824AD108200D83DF0 /* NewWordViewController.swift */; };
+		C383999B24AD1A3300D83DF0 /* WordListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C383999A24AD1A3300D83DF0 /* WordListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C383997324ACB41700D83DF0 /* Polyglot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polyglot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C383997624ACB41700D83DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C383997B24ACB41700D83DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C383997E24ACB41700D83DF0 /* Polyglot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Polyglot.xcdatamodel; sourceTree = "<group>"; };
+		C383998024ACB41A00D83DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C383998324ACB41A00D83DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C383998524ACB41A00D83DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C383998B24ACE0CD00D83DF0 /* HomeScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTableViewController.swift; sourceTree = "<group>"; };
+		C383999424ACE3F000D83DF0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C383999624ACEDA000D83DF0 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		C383999824AD108200D83DF0 /* NewWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWordViewController.swift; sourceTree = "<group>"; };
+		C383999A24AD1A3300D83DF0 /* WordListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C383997024ACB41700D83DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383999524ACE3F000D83DF0 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C383996A24ACB41700D83DF0 = {
+			isa = PBXGroup;
+			children = (
+				C383997524ACB41700D83DF0 /* Polyglot */,
+				C383997424ACB41700D83DF0 /* Products */,
+				C383999324ACE3F000D83DF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C383997424ACB41700D83DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C383997324ACB41700D83DF0 /* Polyglot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C383997524ACB41700D83DF0 /* Polyglot */ = {
+			isa = PBXGroup;
+			children = (
+				C383998B24ACE0CD00D83DF0 /* HomeScreenTableViewController.swift */,
+				C383999624ACEDA000D83DF0 /* CoreDataHelper.swift */,
+				C383997624ACB41700D83DF0 /* AppDelegate.swift */,
+				C383997A24ACB41700D83DF0 /* Main.storyboard */,
+				C383999A24AD1A3300D83DF0 /* WordListTableViewCell.swift */,
+				C383999824AD108200D83DF0 /* NewWordViewController.swift */,
+				C383998024ACB41A00D83DF0 /* Assets.xcassets */,
+				C383998224ACB41A00D83DF0 /* LaunchScreen.storyboard */,
+				C383998524ACB41A00D83DF0 /* Info.plist */,
+				C383997D24ACB41700D83DF0 /* Polyglot.xcdatamodeld */,
+			);
+			path = Polyglot;
+			sourceTree = "<group>";
+		};
+		C383999324ACE3F000D83DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C383999424ACE3F000D83DF0 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C383997224ACB41700D83DF0 /* Polyglot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C383998824ACB41A00D83DF0 /* Build configuration list for PBXNativeTarget "Polyglot" */;
+			buildPhases = (
+				C383996F24ACB41700D83DF0 /* Sources */,
+				C383997024ACB41700D83DF0 /* Frameworks */,
+				C383997124ACB41700D83DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyglot;
+			productName = Polyglot;
+			productReference = C383997324ACB41700D83DF0 /* Polyglot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C383996B24ACB41700D83DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HSAAA;
+				TargetAttributes = {
+					C383997224ACB41700D83DF0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C383996E24ACB41700D83DF0 /* Build configuration list for PBXProject "Polyglot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C383996A24ACB41700D83DF0;
+			productRefGroup = C383997424ACB41700D83DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C383997224ACB41700D83DF0 /* Polyglot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C383997124ACB41700D83DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383998424ACB41A00D83DF0 /* LaunchScreen.storyboard in Resources */,
+				C383998124ACB41A00D83DF0 /* Assets.xcassets in Resources */,
+				C383997C24ACB41700D83DF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C383996F24ACB41700D83DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C383998C24ACE0CD00D83DF0 /* HomeScreenTableViewController.swift in Sources */,
+				C383999B24AD1A3300D83DF0 /* WordListTableViewCell.swift in Sources */,
+				C383997724ACB41700D83DF0 /* AppDelegate.swift in Sources */,
+				C383999924AD108200D83DF0 /* NewWordViewController.swift in Sources */,
+				C383999724ACEDA000D83DF0 /* CoreDataHelper.swift in Sources */,
+				C383997F24ACB41700D83DF0 /* Polyglot.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C383997A24ACB41700D83DF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C383997B24ACB41700D83DF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C383998224ACB41A00D83DF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C383998324ACB41A00D83DF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C383998624ACB41A00D83DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C383998724ACB41A00D83DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C383998924ACB41A00D83DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UNM9J294L9;
+				INFOPLIST_FILE = Polyglot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Heba.Polyglot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C383998A24ACB41A00D83DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UNM9J294L9;
+				INFOPLIST_FILE = Polyglot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Heba.Polyglot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C383996E24ACB41700D83DF0 /* Build configuration list for PBXProject "Polyglot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C383998624ACB41A00D83DF0 /* Debug */,
+				C383998724ACB41A00D83DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C383998824ACB41A00D83DF0 /* Build configuration list for PBXNativeTarget "Polyglot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C383998924ACB41A00D83DF0 /* Debug */,
+				C383998A24ACB41A00D83DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C383997D24ACB41700D83DF0 /* Polyglot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C383997E24ACB41700D83DF0 /* Polyglot.xcdatamodel */,
+			);
+			currentVersion = C383997E24ACB41700D83DF0 /* Polyglot.xcdatamodel */;
+			path = Polyglot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C383996B24ACB41700D83DF0 /* Project object */;
+}
